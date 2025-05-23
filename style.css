@@ -1,6 +1,7 @@
 body{
     background-color: rgba(246, 207, 213, 0.745);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
 }
 
 a{
@@ -28,7 +29,7 @@ p{
     flex-direction: column;
 }
 .bar{
-    background-color: red;
+    background-color: #b30000;
     color: white;
     text-align: center;
     list-style-type: none;
@@ -58,7 +59,7 @@ p{
     margin: auto;
     padding: 2%;
     font-size: 200%;
-    border: dashed;
+    border: dashed #000;
 }
 
 /*.button{
@@ -77,10 +78,13 @@ h1{
 }
 
 footer{
-    background-color: rgb(180, 180, 180);
+    background-color: #999999;
     width: fit-content;
     height: auto;
     border-radius: 5px;
     padding: 10px;
-    font-style: italic;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    color: black;
 }
