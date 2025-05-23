@@ -3,9 +3,24 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+}
+
+p{
+    font-size: 150%;
+}
+
 .brand{
     margin-top: 0;
 
+}
+.nav_style{
+        margin-top: 2%;
+        font-size: 200%;
+        
 }
 
 .side_bar{
@@ -19,9 +34,14 @@ body{
     list-style-type: none;
     margin: 20px;
     padding: 10px;
-    border-radius: 10%;
-    width: 100px;
+    border-radius: 10pt;
+    width: 100pt;
     height: auto;
+}
+
+.container{
+    display: flex;
+    margin-left: -50pt;
 }
 
 .flex_parent{
@@ -32,7 +52,16 @@ body{
 
 }
 
-.button{
+.testimonial{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2%;
+    font-size: 200%;
+    border: dashed;
+}
+
+/*.button{
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -41,8 +70,17 @@ body{
     border-radius: 5px;
     font-size: 16px;
     transition: background-color 0.3s ease;
-}
+}*/
 
 h1{
     font-size: 40pt;
+}
+
+footer{
+    background-color: rgb(180, 180, 180);
+    width: fit-content;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    font-style: italic;
 }
