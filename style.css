@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(246, 207, 213, 0.745);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.brand{
+    margin-top: 0;
+
+}
+
+.side_bar{
+    display: flex;
+    flex-direction: column;
+}
+.bar{
+    background-color: red;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10%;
+    width: 100px;
+    height: auto;
+}
+
+.flex_parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+h1{
+    font-size: 40pt;
+}
